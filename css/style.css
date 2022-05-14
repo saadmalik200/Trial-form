@@ -69,8 +69,13 @@ form {
 .inputPassword {
   position: relative;
   /* border: 2px solid red; */
+  /* border-style: hidden; */
 }
 
+.formTop input:focus {
+  border: 5px solid rgb(115, 140, 221);
+  outline: none;
+}
 .inputFirst img {
   position: absolute;
   top: 1rem;
@@ -79,7 +84,7 @@ form {
 
 .inputFirst p {
   position: absolute;
-  top: 5rem;
+  top: 5.5rem;
   right: 3rem;
 }
 
@@ -90,7 +95,7 @@ form {
 }
 .inputLast p {
   position: absolute;
-  top: 5rem;
+  top: 5.5rem;
   right: 3rem;
 }
 .inputEmail img {
@@ -100,7 +105,7 @@ form {
 }
 .inputEmail p {
   position: absolute;
-  top: 5rem;
+  top: 5.5rem;
   right: 3rem;
 }
 
@@ -111,7 +116,7 @@ form {
 }
 .inputPassword p {
   position: absolute;
-  top: 5rem;
+  top: 5.5rem;
   right: 3rem;
 }
 
@@ -178,6 +183,11 @@ formBottom {
   max-width: 55rem;
   /* max-width: 60%; */
   padding: 1rem 0;
+}
+
+.formBottom input:focus {
+  border: 5px solid rgb(94, 168, 94);
+  outline: none;
 }
 input::placeholder {
   font-weight: 600;
