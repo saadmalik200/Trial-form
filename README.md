@@ -1,4 +1,4 @@
-# UIB-Trial-Form
+# Trial Form
 
 ## Link
 
